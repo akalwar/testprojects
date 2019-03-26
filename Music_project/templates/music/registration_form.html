@@ -1,0 +1,10 @@
+<form class="form-horizontal"   action="form-horizontal" action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% include 'music/form-template.html' %}
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn bt">Submit</button>
+        </div>
+    </div>
+
+</form>
